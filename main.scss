@@ -50,6 +50,7 @@ body {
             width: 99%;
             height: 20%;
             margin-top: 0.5%;
+            font-size: $font-size-header;
         }
 
         .h3 {
@@ -58,14 +59,17 @@ body {
             width: 99%;
             height: 10%;
             margin-top: 0.5%;
+            font-size: xx-large;
         }
 
         .article-1 {
             border: solid;
             @include flex-center;
+            align-self: flex-start;
             width: 99%;
             height: 70%;
-            
+            font-size: larger;
+            text-align: center
         }
 
     }
@@ -184,5 +188,6 @@ footer {
     height: 10%;
     margin: 0;
     padding: 0;
+    font-size: $font-size-footer;
 }
 }
