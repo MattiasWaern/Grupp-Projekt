@@ -1,0 +1,32 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  @mixin flex-row {  // main-1
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+
+  @mixin flex-column { // .articles och .pics
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+  }
+  @mixin box-shadow($shadow){// .header
+    -webkit-box-shadow:$shadow;
+    -moz-box-shadow:$shadow;
+    box-shadow:$shadow;
+  }
+
+
+ 
+
+  
+
+
