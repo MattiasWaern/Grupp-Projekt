@@ -100,18 +100,26 @@ body {
             @include flex-center;
             height: 30%;
             width: 99%;
-            background-color: $primary-color;
+            // background-color: $primary-color;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Onions.jpg/640px-Onions.jpg);
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            font-size: $font-size-header;
+            font-family: $font-family-header;
+            color: $secondary-color;
             
-            .img2 {
+            // .img2 {
 
                 
-                height: 100%; // Let the image fill the height of its parent
-                width: 100%;  // Let the image fill the width of its parent
-                object-fit: cover; // Ensures the image covers the area while maintaining aspect ratio
-                object-position: center; // Centers the image
+            //     height: 100%; // Let the image fill the height of its parent
+            //     width: 100%;  // Let the image fill the width of its parent
+            //     object-fit: cover; // Ensures the image covers the area while maintaining aspect ratio
+            //     object-position: center; // Centers the image
 
 
-            }
+            // }
         }
     }
 }

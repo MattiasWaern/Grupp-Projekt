@@ -107,15 +107,16 @@ body .main-1 .pics .ad {
   align-items: center;
   height: 30%;
   width: 99%;
-  background-color: rgb(252, 244, 244);
-}
-body .main-1 .pics .ad .img2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Onions.jpg/640px-Onions.jpg);
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  font-size: 3rem;
+  font-family: "Agdasima", sans-serif;
+  color: rgb(45, 53, 128);
 }
 body footer {
   display: flex;
